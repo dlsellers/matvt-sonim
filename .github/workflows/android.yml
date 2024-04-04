@@ -30,3 +30,6 @@ jobs:
       with:
         name: apk
         path: app/build/outputs/apk/debug/app-debug.apk
+
+    - name: Build and Release APK
+      uses: sangatdesai/release-apk@V1.0
